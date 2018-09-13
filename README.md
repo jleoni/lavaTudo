@@ -3,6 +3,8 @@
 Teste Dr. Lava Tudo
 Desenvolvedor
 
+Utilize git clone https://github.com/jleoni/lavaTudo para utilizar este projeto.
+
 Você está recebendo teste completo para nossa vaga de Desenvolvedor. Nosso objetivo é analisar
 suas habilidades e desenvoltura para conseguir resolvê-lo. Não deixe de enviar o resultado, mesmo
 que incompleto! Qualquer dúvida sobre o teste, encaminhe para vagas@drlavatudo.com com o
@@ -10,7 +12,7 @@ assunto "DÚVIDA TI".
 
 Considerando a seguinte estrutura de dados:
 
-Cliente Serviços 
+Cliente Serviços
 ● ID (auto incrementável) 
 ● Nome 
 ● Email 
