@@ -72,5 +72,38 @@ f. Insira um cliente
 Coloque todas as respostas e queries em um único arquivo .sql e adicione dentro de repositório com
 o nome “Queries.sql”
 
+API
 
+Considerando seus conhecimentos em desenvolvimento de software e utilizando a base de
+dados da questão 2, implemente um sistema (na linguagem de sua preferência) com os
+seguintes requisitos :
 
+1. Construir Api seguindo padrões Restful
+
+2. Api’s que precisam ser construídas e os dados que devem retornar:
+a. EndPoint: /api/os/
+
+i. Retornar dados de uma de Ordem de Serviço específica
+ii. Retornar listagem de todas as Ordens de Serviço
+
+b. EndPoint: /api/cliente/
+i. Retornar dados de um cliente específico
+ii. Retornar listagem de clientes ordenados pelo nome
+iii. Cadastrar cliente, evitando que emails repetidos sejam utilizados
+
+c. EndPoint: /api/servico/
+i. Retornar dados de um serviços específico
+ii. Retornar listagem dos serviços disponíveis
+iii. Retornar listagem dos serviços ordenando pelos mais realizados
+
+Não é necessário construir interface (tela) para realizar as chamadas à API, você pode
+utilizar a ferramenta Postman ou outra de sua escolha, o retorno de cada endpoint deverá
+estar em formato json, salve todos em um único arquivo .txt e adicione no repositório com
+o nome “Json.txt”
+
+Requisitos utilizados neste projeto:
+Ferramenta: Visual Studio 2015
+Linguagem: C#.NET
+Tecnologia: Web API, MVC e ASP.NET.
+Banco de dados: SQL Server 2008
+Conexão com banco de dados: Entity Framework
